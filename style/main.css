@@ -1,0 +1,170 @@
+/* - White: hsl(0, 0%, 100%)
+- Light Grey: hsl(217, 12%, 63%)
+- Medium Grey: hsl(216, 12%, 54%)
+- Dark Blue: hsl(213, 19%, 18%)
+- Very Dark Blue: hsl(216, 12%, 8%) */
+
+/* Font size (paragraph): 15px */
+html, body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body{
+    background-color: hsl(216, 12%, 8%);
+ }
+
+.flex-center{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+p{
+    margin: 0;
+}
+
+/* c + bg */
+
+.c_White{
+    color : hsl(0, 0%, 100%)
+}
+.bg_White{
+    background-color : hsl(0, 0%, 100%)
+}
+
+
+
+.c_LightGrey{
+    color :hsl(217, 12%, 63%)
+}
+
+.bg_LightGrey{
+    background-color : hsl(217, 12%, 63%)
+}
+
+
+
+.c_MediumGrey{
+    color : hsl(216, 12%, 54%)
+}
+
+.bg_MediumGrey{
+    background-color : hsl(216, 12%, 54%)
+}
+
+
+
+.c_DarkBlue{
+    color : hsl(213, 19%, 18%)
+}
+
+.bg_DarkBlue{
+    background-color : hsl(213, 19%, 18%)
+}
+
+
+
+.c_VeryDarkBlue{
+    color : hsl(216, 12%, 8%)
+}
+
+.bg_VeryDarkBlue{
+    background-color : hsl(216, 12%, 8%)
+}
+
+
+.bg_orange{
+    background-color : hsl(25, 97%, 53%);
+}
+
+
+.c_orange{
+    color : hsl(25, 97%, 53%);
+}
+/* c + bg */
+
+
+.manualFontsize{
+    font-size:  15px
+}
+
+.manualFontsizeMini{
+    font-size:  12px
+}
+
+
+.fwBold{
+    font-weight: 700;
+}
+.fwlight{
+    font-weight: 400;
+}
+.cardInfo{
+    width: 330px;
+    padding: 25px;
+    height: auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.iconStar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: hsl(214deg 10% 21%);
+}
+.iconNumb{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.bgIconActive{
+    background-color: hsl(25, 97%, 53%);
+}
+.bgIconNotActive{
+    background-color: hsl(214deg 10% 21%);
+}
+
+
+.iconNumb:hover{
+    background-color: hsl(217, 12%, 63%);
+    transition: 0.3s;
+}
+
+.submitbtn{
+    width: 100%;
+    height: 35px;
+    cursor: pointer;
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 300px;
+    color : hsl(0, 0%, 100%);
+    transition: 0.3s;
+
+}
+
+.submitbtn:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+    transition: 0.3s;
+}
+
+
+
+.boxunderImg{
+    width: auto;
+    height: auto;
+    padding: 5px;
+    background-color: hsl(214deg 10% 21%);
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.textJustify{
+    text-align: justify;
+}

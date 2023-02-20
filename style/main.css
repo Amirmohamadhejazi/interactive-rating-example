@@ -11,7 +11,7 @@ html, body{
   padding: 0;
 }
 body{
-    background-color: hsl(216, 12%, 8%);
+    /*background-color: hsl(216, 12%, 8%);*/
  }
 
 .flex-center{
@@ -20,6 +20,9 @@ body{
  align-items: center;
 }
 
+.trn3{
+    transition: 0.3s;
+}
 p{
     margin: 0;
 }
@@ -160,4 +163,15 @@ p{
 
 .textJustify{
     text-align: justify;
+}
+
+.DarkBtn{
+    cursor: pointer;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 120px;
+    text-align: center;
 }

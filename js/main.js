@@ -54,3 +54,9 @@ function SubmitFunc(){
         document.getElementById('numberOfStar').innerHTML = "You Selected " + starLevel + " out of 5"
     }
 }
+function ToggleDarkFunc(){
+
+    document.body.classList.toggle("bg_VeryDarkBlue");
+
+}
+
